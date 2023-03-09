@@ -1,20 +1,29 @@
-.mostache{
+body{background-color: blue;}
+/*.container-bigote{
+    width: 100em;
+    height: 15em;
+    display: flex;
+   
+}*/
+.mostache {
     width: 180px;
     height: 180px;
-    left: 100px;
+    /*left: 300px;*/
     border-radius: 50%;
+    /*display: inline-block;
+    /*background-color: purple;*/
     position: absolute;
     color: purple;
     box-shadow: 
     
-    150px 240px 0 0 currentColor,
-    300px 240px 0 0 currentColor;
+    150px 140px 0 0 currentColor,
+    300px 140px 0 0 currentColor;
 }
-.mostache::before{
+.mostache::before {
     content: "";
     position: absolute;
     left: 30px;
-    top: 120px;
+    top: 20px;
     width: 210px;
     height: 120px;
     border-bottom: solid 180px currentColor;
@@ -23,11 +32,11 @@
     transform-origin: right 210px;
 
 }
-.mostache::after{
+.mostache::after {
     content: "";
     position: absolute;
     left: 390px;
-    top: 120px;
+    top: 20px;
     width: 210px;
     height: 120px;
     border-bottom: solid 180px currentColor;
@@ -35,4 +44,28 @@
     transform: rotate(40deg);
     transform-origin: left 210px;
 
+}
+.container-ojos{
+    width: 100em;
+    height: 15em;
+    display: flex;
+   
+}
+.espacio {
+    width: 75px;
+    height: 15em;
+}
+.ojos {
+    width: 240px;
+    height: 240px;
+    /*left: 20px;
+    /*position: relative;*/
+    display: inline-block;
+    background-color: black;
+    border-radius: 50%;
+    color: black;
+    /*box-shadow: 
+    
+    150px 0 0 0 currentColor,
+    400px 0 0 0 currentColor;*/
 }
